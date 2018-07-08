@@ -11,3 +11,8 @@ print 'Die 1:',die1
 print 'Die 2:',die2
 
 print 'Total value:',die1 + die2
+
+if die1 + die2 > 7:
+	print 'You won'
+else:
+	print 'You lost'
