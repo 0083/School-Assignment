@@ -17,6 +17,6 @@ print 'Die 2:',die2
 print 'Total value:',die1 + die2
 
 if die1 + die2 > 7:
-	print 'You won'
+	print name + ' won!'
 else:
-	print 'You lost'
+	print name + ' lost!'
