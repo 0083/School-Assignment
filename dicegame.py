@@ -2,6 +2,10 @@
 
 from numpy.random import *
 
+print 'What is your name?'
+name = raw_input('> ')
+print 'Hello,',name + '!'
+
 print 'Rolling the dice...'
 
 die1 = randint(1,7)
